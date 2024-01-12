@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://kit.fontawesome.com/9f5064afea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+    <div id="about">
+        <div class="container">
+            <nav style="margin-top: -60px;">
+                <img src="./css/images/finallogo.png" alt="" class="logo" style="height: 100px;">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="./index1.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="row">
+                <div class="about-col1">
+                    <img src="./css/images/pexels-designecologist-1779487.jpg" alt="">
+                </div>
+                <div class="about-col2">
+
+                    <h1 class="sub-title" style="font-size:50px">About Me</h1><br>
+                    <p style="color: #fff;">Hello! 👋 I'm [Krish Jain], a passionate front-end developer with a keen eye for creating dynamic and visually appealing web experiences. I thrive on turning ideas into interactive, user-friendly interfaces. Proficient in HTML, CSS,
+                        and JavaScript, I enjoy the ever-evolving challenges of modern web development.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick=" opentab( 'experience') ">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <!-- <ul>
+                            <li> HTML </li>
+                            <li>CSS</li>
+                            <li> JavaScript</li>
+                            <li> ReactJs</li>
+                            <li>JAVA</li>
+                            <li>DSA</li>
+                            <li>SQL</li>
+
+                            <br>
+                        </ul> -->
+                        <table cellspacing="20">
+                            <tr>
+
+                                <td>HTML</td>
+                                <td>⭐⭐⭐⭐</td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    CSS
+
+                                </td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>ReactJS</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>JAVA</td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>DSA</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>OS</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>LINUX</td>
+                                <td>⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td>GitHub</td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li style="color: #fff; ">
+                                <span>ReactJs Intern </span><br> Celebel Technologies(May-2023 to July-2023)
+                            </li>
+                            <br>
+                            <li style="color: #fff; ">
+                                <span>Web Development Intern </span> <br> Coincent,Worlnwell(Sep-2022 to Nov-2022)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li style="color: #fff;">
+                                <span> B.Tech-Computer Science </span><br><br>Arya College of Engineering & I.T (SGPA-9.06)
+                            </li>
+                            <br>
+                            <li style="color: #fff;">
+                                <span>Senior Secondary Education (XII) </span><br>Central Academy School (% - 86%)
+                            </li>
+                            <br>
+                            <li style="color: #fff;">
+                                <span> Secondary Education (X)</span><br>Central Academy School (% - 78%)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <br><br>
+</body>
+
+</html>
